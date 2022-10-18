@@ -1,0 +1,92 @@
+body {
+    background-color: #f6f6f6;
+}
+
+
+
+.header {
+    font-size: 4rem;
+}
+
+.picBox {
+    display: flex;
+    justify-content: center;
+}
+
+.pic {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 22rem;
+    width: 22rem;
+    background-image: url('./images/8frontfinal.jpg');
+}
+.pic2 {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 22rem;
+    width: 22rem;
+    background-image: url('./images/8ballwindow\ final.jpg');
+}
+
+.hidden {
+    display: none;
+}
+
+h3 {
+    color: white; 
+    -webkit-text-stroke:1px black; 
+}
+
+.reply {
+    margin-top: 38%;
+}
+
+.typewriter h3 {
+    font-size: 1.5rem;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color:none; }
+  }
+
+
+.ani {
+    animation: shake .25s;
+    animation-iteration-count: 8;
+}
+
+@keyframes shake {
+    0%{transform: translate(1px, 1px) rotate(1deg);}
+    15%{transform: translate(-3px, -1px) rotate(5deg);}
+    30%{transform: translate(-1px, -2px) rotate(-4deg);}
+    45%{transform: translate(-1px, 3px) rotate(0deg);}
+    60%{transform: translate(-1px, -2px) rotate(-3deg);}
+    75%{transform: translate(-1px, -1px) rotate(-13deg);}
+    90%{transform: translate(1px, 2px) rotate(4deg);}
+    90%{transform: translate(-1px, -2px) rotate(1deg);}
+}
+
+.questionBox {
+    width: 30rem;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: center;
+}
