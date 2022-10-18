@@ -2,8 +2,6 @@ body {
     background-color: #f6f6f6;
 }
 
-
-
 .header {
     font-size: 4rem;
 }
@@ -16,15 +14,16 @@ body {
 .pic {
     background-repeat: no-repeat;
     background-size: contain;
-    height: 22rem;
-    width: 22rem;
+    height: 20rem;
+    width: 20rem;
     background-image: url('./images/8frontfinal.jpg');
 }
+
 .pic2 {
     background-repeat: no-repeat;
     background-size: contain;
-    height: 22rem;
-    width: 22rem;
+    height: 20rem;
+    width: 20rem;
     background-image: url('./images/8ballwindow\ final.jpg');
 }
 
@@ -84,6 +83,7 @@ h3 {
 
 .questionBox {
     width: 30rem;
+    border: .15rem solid black;
 }
 
 .buttonBox {

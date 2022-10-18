@@ -1,7 +1,7 @@
 
 const shakeBtn = document.getElementById('shake');
 
-const replies = ["Without a doubt", "Yes definitely", "You may rely on it", "As I see it, yes", "Most likely", "Outlook good", "Yes", "Signs point to yes", "Better not tell you now","Cannot predict now", "Concentrate and ask again", "My sources say no", "Outlook not so good", "Very doubtful"]//14
+const replies = ["Without a doubt", "Yes definitely", "You may rely on it", "As I see it, yes", "Most likely", "Outlook good", "Yes", "Signs point to yes", "Better not tell you","Cannot predict now", "Ask again", "My sources say no", "Outlook not so good", "Very doubtful"]//14
 
 let reply = replies[Math.floor(Math.random()* 13)];
 console.log(reply)
