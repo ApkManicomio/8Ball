@@ -1,6 +1,5 @@
 let quest = document.getElementById('quest');
 
-
 const shakeBtn = document.getElementById('shake');
 
 const replies = ["Without a doubt", "Yes definitely", "You may rely on it", "As I see it, yes", "Most likely", "Outlook good", "Yes", "Signs point to yes", "Better not tell you","Cannot predict now", "Ask again", "My sources say no", "Outlook not so good", "Very doubtful"]//14
@@ -24,7 +23,7 @@ function changeUp() {
     $('.questionBox').toggle(4000);
     shakeBtn.innerText = 'Play Again';
     shakeBtn.addEventListener("click", reload);
-    setTimeout(5000, reset())
+    setTimeout(4000, reset())
 };
 
 function reset(){
@@ -33,6 +32,6 @@ function reset(){
 
 function reload() {
     window.location.reload()
-}
+};
 
 
